@@ -1,0 +1,21 @@
+.main {
+    background-color: black;
+    color: white;
+    position: relative;
+  }
+  
+  /* Transparent navbar styles */
+  .navbar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  /* Remove body scrollbar */
+  body {
+    overflow-x: hidden;
+  }
+  
